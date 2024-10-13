@@ -216,7 +216,7 @@ def evaluate_test_set(test_audio_dir, test_json_data, faiss_index_path, labels_p
 
     results = []
     # Process each test sample
-    for test_sample in test_json[:4]:
+    for test_sample in test_json:
         start = time.time()
         test_audio_path = os.path.join(test_audio_dir, test_sample['audio_filepath'])
         
