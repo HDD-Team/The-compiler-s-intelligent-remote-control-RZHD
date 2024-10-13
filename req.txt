@@ -1,0 +1,8 @@
+faiss-cpu
+torchaudio
+numpy
+json
+pickle
+scikit-learn
+transformers
+ru-word2number
